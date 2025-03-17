@@ -1,0 +1,19 @@
+#Guess the number
+#Author:fan chenxuan
+#DATE:17/3/25
+
+
+#refer random
+import random
+
+#generate a random number
+a=random.randint(10,20)
+
+#guess the number
+b=int(input("please guess a number: "))
+
+#if you are wrong, try again,until you are right
+while a!=b:
+	b=int(input("please try again: "))
+#congratulate you are right
+print("Congratulations!")
